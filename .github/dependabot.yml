@@ -1,0 +1,8 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+
+    # Path to build.gradle
+    directory: "/"
+    schedule:
+      interval: "weekly"
